@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        .column {
+  float: left;
+  width: 60%;
+  height:30%;
+  padding: 5px;
+}
+.column1{
+float: left;
+width:30%;
+}
+    </style>
+</head>
+<body>
+   <div class="row">
+    <div class="column"> <img src="images/caboard.webp"><center><h2>cupboard</h2></center></div>
+    <div class="column1"> <img src="images/fridge.webp"><center><h2>Fridge</h2></center></div></div>
+</body>
+</html>
